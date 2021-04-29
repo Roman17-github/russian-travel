@@ -9,7 +9,7 @@
     grid-template-areas: 
       "title    ."
       "title link"
-      "image text"   ;
+      "image text";
 }
 @media screen and (max-width:1024px) {
   .place {
@@ -25,7 +25,7 @@
       "title"
       "link"
       "image"
-      "text"   ;
+      "text";
       padding-bottom: 50px;
   }
 }
