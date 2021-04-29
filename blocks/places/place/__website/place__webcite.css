@@ -1,0 +1,8 @@
+.place__webcite {
+    grid-area: link;
+}
+@media screen and (max-width:768px) {
+    .place__webcite {
+        padding: 0 16px;
+    }
+}

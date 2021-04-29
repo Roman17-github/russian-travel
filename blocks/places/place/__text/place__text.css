@@ -1,0 +1,18 @@
+.place__text {
+    width: 100%;
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.63;
+    grid-area: text;
+    box-sizing: border-box;
+}@media screen and (max-width:1024px){
+    .place__text {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:768px) {
+    .place__text {
+        padding: 0 16px;
+    }
+}
