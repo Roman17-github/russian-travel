@@ -10,7 +10,9 @@
     align-items: center;
     position: relative;
     background-position: center;
+    z-index: 1;
 }
+
 @media screen and (max-width:1280px) {
     .cover {
         max-width: 100%;
