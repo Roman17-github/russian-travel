@@ -15,16 +15,16 @@
           class="header__logo"
         />
         <div class="header__lang-links">
-          <a class="header__lang-link" href="#">Ru</a>
+          <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
           <a class="header__lang-link" href="#">En</a>
         </div>
       </header>
       <main>
         <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
-          <h2 class="lead__subtitle">
+          <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
-          </h2>
+          </p>
           <img
             src="./sprint-3-images/lead-polka.jpg"
             alt="фото"
@@ -47,11 +47,19 @@
             вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li>Часовых поясов 11</li>
-            <li>Объектов природного наследия ЮНЕСКО 12</li>
-            <li>Объектов культурного наследия ЮНЕСКО 16</li>
-            <li>Природных заповедников 105</li>
-            <li>Аэропортов 241</li>
+            <li>Часовых поясов <span class="intro__span-accent">11</span></li>
+            <li>
+              Объектов природного наследия ЮНЕСКО
+              <span class="intro__span-accent">12</span>
+            </li>
+            <li>
+              Объектов культурного наследия ЮНЕСКО
+              <span class="intro__span-accent">16</span>
+            </li>
+            <li>
+              Природных заповедников <span class="intro__span-accent">105</span>
+            </li>
+            <li>Аэропортов <span class="intro__span-accent">241</span></li>
           </ul>
         </section>
         <section class="photo-grid">
@@ -117,7 +125,7 @@
           />
         </section>
         <section class="places">
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <img
               src="./sprint-3-images/place-kosa.jpg"
@@ -146,8 +154,8 @@
                 прохладного моря.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Кольский</h2>
             <img
               src="./sprint-3-images/place-kolsky.jpg"
@@ -179,8 +187,8 @@
                 с билетом в Мурманск.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Алтай</h2>
             <img
               src="./sprint-3-images/place-altai.jpg"
@@ -212,8 +220,8 @@
                 края.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <img
               src="./sprint-3-images/place-winter-baikal.jpg"
@@ -244,8 +252,8 @@
                 197.011 км/ч.
               </p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Карелия</h2>
             <img
               src="./sprint-3-images/place-karelia.jpg"
@@ -271,7 +279,7 @@
                 помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
               </p>
             </div>
-          </div>
+          </article>
         </section>
         <section class="cover">
           <a
@@ -279,17 +287,16 @@
             class="cover__link"
             target="_blank"
           >
-            <div class="cover__overlay"></div>
             <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <h3 class="cover__subtitle">
+            <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе — путешествие от столицы до
               Байкала на электричках.
-            </h3>
+            </p>
           </a>
         </section>
       </main>
       <footer class="footer">
-        <div class="footer__links">
+        <nav class="footer__links">
           <a href="https://yandex.ru/maps" class="footer__link" target="_blank"
             >Карты</a
           >
@@ -311,8 +318,8 @@
             target="_blank"
             >Путешествие</a
           >
-        </div>
-        <div class="footer__copyright">&copy; 2021. Роман</div>
+        </nav>
+        <p class="footer__copyright">&copy; 2021. Роман Цыкунков</p>
       </footer>
     </div>
   </body>

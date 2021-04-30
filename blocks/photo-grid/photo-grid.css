@@ -6,17 +6,17 @@
     margin:92px auto 0; 
 }
     
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
     .photo-grid {
         max-width: calc(100% - 48px);
         grid-template-columns: repeat(auto-fit,minmax(352px, max-content));
-        gap:16px;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .photo-grid {
         max-width: calc(100% - 32px);
         grid-template-columns: repeat(auto-fit,minmax(250px, max-content));
         gap:12px;
+        margin-top: 64px;
     }
 }

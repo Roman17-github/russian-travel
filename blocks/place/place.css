@@ -11,14 +11,13 @@
       "title link"
       "image text";
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
   .place {
     padding-bottom: 72px;
   }
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .place {
-    
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4,max-content);
     grid-template-areas: 
@@ -27,5 +26,6 @@
       "image"
       "text";
       padding-bottom: 50px;
+      gap: 32px;
   }
 }
